@@ -1,0 +1,199 @@
+.skin-blue .main-header {
+    background-color: darkgreen;
+}
+.main-header .logo {
+    font-family: "Papyrus", cursive;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.skin-blue .main-header .logo {
+    background-color: darkgreen;
+}
+
+    .skin-blue .main-header .logo:hover {
+        background-color: darkgreen;
+    }
+
+.skin-blue .main-header .navbar {
+    background-color: #229954;
+}
+
+    .skin-blue .main-header .navbar:hover {
+        background-color: #229954;
+    }
+
+    .skin-blue .main-header .navbar .sidebar-toggle {
+        color: white; /* Standardfarbe */
+    }
+        .skin-blue .main-header .navbar .sidebar-toggle:hover {
+            background-color: #229954; /* Farbe bei Hover */
+        }
+
+h4 {
+    font-family: "Lucida Handwriting", cursive; /* Schriftart für h4 */
+    color: #ca6f1e; /* Farbe */
+    text-align: center; /* Zentrierung */
+    font-weight: bold;
+}
+
+h5 {
+    font-family: "Papyrus", cursive; /* Schriftart für h4 */
+    color: black; /* Farbe */
+    text-align: left; /* Zentrierung */
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 18px;
+}
+h6 {
+    font-family: "Lucida Handwriting", cursive;
+    color: #ca6f1e;
+    font-size: 18px;
+    line-height: 1.8;
+    font-style: italic;
+}
+h2 {
+    font-family: "Papyrus", cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+h3 {
+    font-family: "Papyrus", cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color: red;
+}
+
+.skin-blue .main-sidebar .sidebar a {
+    font-family: "Papyrus", cursive;
+    font-size: 18px; /* Schriftgröße optional */
+    color: white; /* Textfarbe */
+}
+
+    .skin-blue .main-sidebar .sidebar a:hover {
+        color: lightgreen; /* Gelb beim Hover */
+    }
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a {
+    color: #ca6f1e;
+}
+.tab-content h3 {
+    font-family: "Papyrus", cursive;
+    color: white;
+    font-weight: bold;
+}
+.tab-content {
+    font-family: "Papyrus", cursive;
+    color: #ca6f1e;
+    font-size: 16px;
+    font-weight: bold;
+}
+body {
+    color: black;
+}
+.shiny-output-error-validation {
+    color: black; /* Textfarbe der Validierungsmeldungen */
+}
+#slider .ui-slider-label {
+    color: black;
+}
+
+/* Setzt die Farbe der Beschriftung (Überschrift des Schiebereglers) auf schwarz */
+.control-label {
+    color: black;
+}
+
+/* Setzt die Farbe des Schiebereglers selbst auf schwarz */
+.shiny-input-container .slider .ui-slider-range {
+    background: black;
+}
+
+/* Setzt die Farbe des Schieberegler-Handels auf schwarz */
+.shiny-input-container .slider .ui-slider-handle {
+    background: black; !important;
+}
+
+/* Setzt die Schriftfarbe der Zahlen im Schieberegler auf schwarz */
+#slider .ui-slider .ui-slider-handle {
+    color: black;
+}
+.ui-slider-tick {
+    color: black;
+}
+
+/* Setzt die Schriftfarbe der Zahlen auf der Skala auf schwarz */
+.ui-slider .ui-slider-tick-mark {
+    color: black;
+}
+.shiny-input-container .slider .ui-slider-range {
+    background: black;
+}
+.control-label {
+    color: black;
+}
+.ui-slider .ui-slider-tick-mark {
+    color: black !important;
+}
+
+/* Setzt die Schriftfarbe der Skalenbeschriftungen auf schwarz */
+.ui-slider .ui-slider-tick {
+    color: black !important;
+}
+
+/* Setzt die Schriftfarbe der Beschriftungen des Sliders auf schwarz */
+.control-label {
+    color: black;
+}
+.ui-slider .ui-slider-tick-mark {
+    color: black !important;
+    font-size: 14px; /* Größe der Zahlen anpassen */
+}
+
+/* Setzt die Schriftfarbe der Zahlen, die an den Skalenmarkierungen erscheinen */
+.ui-slider .ui-slider-tick {
+    color: black !important;
+    font-size: 14px; /* Größe der Zahlen anpassen */
+}
+.ui-slider .ui-slider-labels {
+    color: black !important;
+    font-size: 14px; /* Die Schriftgröße der Zahlen auf der Skala */
+}
+
+/* Falls die Schriftgröße zu klein ist */
+.ui-slider .ui-slider-tick {
+    color: black !important;
+    font-size: 14px; /* Die Schriftgröße anpassen */
+}
+.ui-slider .ui-slider-tick-mark {
+    color: black !important;
+    font-size: 14px; /* Schriftgröße der Zahlen anpassen */
+}
+
+#generate_btn {
+    background-color: #5499c7;
+    color: white;
+    font-weight: bold;
+    border: 1.5px solid #1a5276;
+}
+
+    .custom-box {
+        background-color: #fdebd0;
+        border-color: #fad7a0; /* Steel Blue */
+        color: #873600;
+        font-size: 16px;
+        padding: 20px; /* Abstand für den Inhalt */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schatten für die Box */
+        text-align: center; /* Zentriert den Text horizontal */
+        display: flex;
+        justify-content: center; /* Zentriert horizontal */
+        align-items: center; /* Zentriert vertikal */
+        min-height: 150px; /* Mindesthöhe für die Box */
+        height: auto; /* Passt die Höhe dynamisch an den Text an */
+        overflow-wrap: break-word; /* Lange Wörter umbrechen */
+    }
+
+
+
+
+
+
